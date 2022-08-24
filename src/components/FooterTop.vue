@@ -17,23 +17,23 @@ export default {
             LinkFooter: [
                 {
                     text: 'DIGITAL COMICS',
-                    img: '../assets/img/buy-comics-digital-comics.png',
+                    img: require('../assets/img/buy-comics-digital-comics.png'),
                 },
                 {
                     text: 'DC MERCHANDISE',
-                    img: '../assets/img/buy-comics-merchandise.png',
+                    img: require('../assets/img/buy-comics-merchandise.png'),
                 },
                 {
                     text: 'SUBSCRIPTION',
-                    img: '../assets/img/buy-comics-subscriptions.png',
+                    img: require('../assets/img/buy-comics-subscriptions.png'),
                 },
                 {
                     text: 'COMIC SHOP LOCATOR',
-                    img: '../assets/img/buy-comics-shop-locator.png',
+                    img: require('../assets/img/buy-comics-shop-locator.png'),
                 },
                 {
                     text: 'DC POWER VISA',
-                    img: '../assets/img/buy-dc-power-visa.svg',
+                    img: require('../assets/img/buy-dc-power-visa.svg'),
                 }
             ]
         }

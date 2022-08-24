@@ -3,6 +3,7 @@
       <MyHeader/>
       <MyMain/>
       <FooterTop/>
+      <FooterBottom/>
   </div>
 </template>
 
@@ -10,13 +11,15 @@
 import MyHeader from './components/MyHeader.vue';
 import MyMain from './components/MyMain.vue';
 import FooterTop from './components/FooterTop.vue';
+import FooterBottom from './components/FooterBottom.vue';
 
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyMain,
-    FooterTop
+    FooterTop,
+    FooterBottom
 }
 }
 </script>
