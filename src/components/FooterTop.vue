@@ -1,9 +1,11 @@
 <template>
-    <div>
-        <ul>
+    <div class="mystyle">
+        <ul class="container">
             <li v-for="(link, index) in LinkFooter" :key="index" >
-                <img :src="link.img" :alt="link.text">
-                <p>{{link.text}}</p>
+                <a :href="link.url">
+                    <img :src="link.img" :alt="link.text">
+                    <p>{{link.text}}</p>
+                </a>
             </li>
         </ul>
     </div>
@@ -18,22 +20,27 @@ export default {
                 {
                     text: 'DIGITAL COMICS',
                     img: require('../assets/img/buy-comics-digital-comics.png'),
+                    url:'#'
                 },
                 {
                     text: 'DC MERCHANDISE',
                     img: require('../assets/img/buy-comics-merchandise.png'),
+                    url:'#'
                 },
                 {
                     text: 'SUBSCRIPTION',
                     img: require('../assets/img/buy-comics-subscriptions.png'),
+                    url:'#'
                 },
                 {
                     text: 'COMIC SHOP LOCATOR',
                     img: require('../assets/img/buy-comics-shop-locator.png'),
+                    url:'#'
                 },
                 {
                     text: 'DC POWER VISA',
                     img: require('../assets/img/buy-dc-power-visa.svg'),
+                    url:'#'
                 }
             ]
         }
@@ -41,6 +48,37 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="scss">
+
+.mystyle{
+    background-color: rgb(2, 130, 249);
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+
+        li{
+            list-style: none;
+
+                &hover{
+                    color: black;
+                }
+
+                a{
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    color: white;
+
+                        img{
+                            width: 60px;
+                            height: 60px;
+                            padding: 5px 10px;
+                        }
+                }
+        }
+}
 
 </style>

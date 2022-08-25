@@ -1,6 +1,6 @@
 <template>
 
-    <header>
+    <header class="container">
         <img src="@/assets/img/dc-logo.png" alt="">
         <nav>
             <ul>
@@ -75,6 +75,34 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="scss">
+
+header, ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+        img{
+            padding: 10px 0;
+        }
+}
+
+li{
+    list-style: none;
+
+        a{
+            text-decoration: none;
+            margin: 0 5px;
+            padding: 50px 0;
+            color: black;
+
+                &:hover {
+                    border-bottom: solid 2px rgb(0, 124, 249) ;
+                    color: rgb(0, 124, 249);
+                        }
+        }
+
+}
+
 
 </style>

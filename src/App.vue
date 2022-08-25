@@ -26,4 +26,7 @@ export default {
 
 <style lang="scss">
 
+@import './style/container.scss';
+@import './style/general.scss';
+
 </style>
