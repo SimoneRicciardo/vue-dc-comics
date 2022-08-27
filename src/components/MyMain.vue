@@ -19,7 +19,7 @@ export default {
     color: white;
 
             .mystyle{
-                 height: 100px;
+                height: 100px;
                 display: flex;
                 align-items: center;
             }

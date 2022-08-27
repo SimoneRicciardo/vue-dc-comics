@@ -56,15 +56,12 @@ export default {
 
 ul{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 0;
 
         li{
             list-style: none;
-
-                &hover{
-                    color: black;
-                }
+            z-index: 999;
 
                 a{
                     display: flex;
@@ -73,9 +70,9 @@ ul{
                     color: white;
 
                         img{
-                            width: 60px;
-                            height: 60px;
-                            padding: 5px 10px;
+                            width: 65px;
+                            height: 65px;
+                            padding: 10px 15px;
                         }
                 }
         }
