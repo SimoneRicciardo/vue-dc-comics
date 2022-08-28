@@ -1,6 +1,6 @@
 <template>
     <div class="mystyle">
-        <ul class="container">
+        <ul class="my_container">
             <li v-for="(link, index) in LinkFooter" :key="index" >
                 <a :href="link.url">
                     <img :src="link.img" :alt="link.text">
@@ -56,7 +56,7 @@ export default {
 
 ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 20px 0;
 
         li{

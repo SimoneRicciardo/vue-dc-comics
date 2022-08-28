@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="back_footer_link">
-            <div class="container containet_list_style">
+            <div class="my_container containet_list_style">
                 <div class="style_list">
                     <div>
                         <h3>DC COMICS</h3>
@@ -40,7 +40,7 @@
             </div>
         </div>
         <div class="link_social_bar">
-            <div class="container link_social">
+            <div class="my_container link_social">
                 <div>
                     <button>SIGN-UP NOW!</button>
                 </div>
